@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator App | Javascript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>A simple calculator app</h1>
+  <div class="container">
+    <input type="number" id="oper1" step="any">
+    <select name="operator" id="math-operator">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">X</option>
+      <option value="/">/</option>
+      <option value="%">%</option>
+    </select>
+    
+    <input type="text" id="oper2" step="any"> 
+
+    <button id="calculate_button">Submit</button> 
+    <input type="text" id="result" readonly="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
